@@ -1,2 +1,31 @@
 开发者网站
 https://developer.mozilla.org/zh-CN/
+WebScoket
+双工 ，浏览器可以向服务器获取数据，服务器也可以向客户端推送数据
+HTML5特有的
+socket.io
+
+安装socket.io
+npm install socket.io
+
+websocket是基于http的
+
+WebSocket--socket.io
+1、服务器
+  a、现有http服务
+     let server=http.createServer()
+     server.listen(3444)
+  b、再有ws服务
+  let wsServer=io.listen(server)
+  wsServer.on('connection',function(sock){
+    sock
+  })
+ 2、浏览器
+   a、引库
+   <script src="xxx/socket.io/socket.io.j"></script>
+   b、连接
+     let sock=io.connect('ws://xxxx/')
+
+  离散数学
+
+
