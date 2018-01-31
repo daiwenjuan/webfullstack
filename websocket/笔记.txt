@@ -61,9 +61,21 @@ http只能传输文本
  ftp 21
  mysql 3306
 
+ package.json 作用
+ http://blog.csdn.net/kuangdacaikuang/article/details/76515985
+
+https://www.cnblogs.com/xiaopin/p/5867954.html
+
+-bash: mysql: command not found mac
+http://blog.csdn.net/sinat_26696701/article/details/49619207
+
+数据库连接出错
+ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+http://blog.csdn.net/ldl22847/article/details/7941962
 
 
 
+库存在了mysql安装的mysql/data/目录下边
 
 
 
